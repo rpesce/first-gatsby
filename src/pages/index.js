@@ -1,12 +1,12 @@
 import React from "react"
+import URLinput from "../components/URLinput"
+import Container from "../components/container"
+
 
 export default () => (
-	<div style={{ color: `purple` }}>
-		<form>
-			<label>
-				<input type="text" name="url" />
-			</label>
-			<input type="submit" value="Submit" />
-		</form>
-	</div>
+	<Container>
+		<div style={{ color: `purple` }}>
+			<URLinput />
+		</div>
+	</Container
   )
